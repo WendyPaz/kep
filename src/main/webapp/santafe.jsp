@@ -84,7 +84,7 @@
                         <%
                             try {
                                 Class.forName("com.mysql.jdbc.Driver");
-                                con = DriverManager.getConnection("jdbc:mysql://localhost/kep?user=root");
+                                con = DriverManager.getConnection("jdbc:mysql://uniwfdnxah5vpg0p:ypXbmE4Z8aDo8sxyGQdT@bgfbi6seynauym9z650h-mysql.services.clever-cloud.com:3306/bgfbi6seynauym9z650h", "uniwfdnxah5vpg0p", "ypXbmE4Z8aDo8sxyGQdT");                       
                                 st = con.createStatement();
                                 rs = st.executeQuery("SELECT * FROM `santafe`;");
                                 while (rs.next()) {
