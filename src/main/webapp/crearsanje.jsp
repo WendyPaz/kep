@@ -48,7 +48,7 @@
                      Statement st = null;
                      
                      Class.forName("com.mysql.jdbc.Driver");
-                     con = DriverManager.getConnection("jdbc:mysql://localhost/kep?user=root");
+                     con = DriverManager.getConnection("jdbc:mysql://uniwfdnxah5vpg0p:ypXbmE4Z8aDo8sxyGQdT@bgfbi6seynauym9z650h-mysql.services.clever-cloud.com:3306/bgfbi6seynauym9z650h", "uniwfdnxah5vpg0p", "ypXbmE4Z8aDo8sxyGQdT");                       
                      st = con.createStatement();
                      st.executeUpdate("insert into `san jeronimo` (nombre,clima,distancia) values('"+nombre+"','"+clima+"','"+distancia+"');");
                      request.getRequestDispatcher("sanjeronimo.jsp").forward(request, response);

@@ -79,7 +79,7 @@
             <div class="card-body">
               <h4 class="card-title">Medellín</h4>
               <p class="card-text">La ciudad de la eterna primavera.</p>
-              <a href="medellin.jsp" class="btn btn-primary">Info</a>
+              <a href="medellin.jsp" name = "1" class="btn btn-primary">Info</a>
             </div>
           </div>
           <div class="card col-sm-4" >
@@ -87,7 +87,7 @@
             <div class="card-body">
               <h4 class="card-title">Guatapé</h4>
               <p class="card-text">Descubre su grandiosa represa.</p>
-              <a href="guatape.jsp" class="btn btn-primary">Info</a>
+              <a href="guatape.jsp"  name = "2" class="btn btn-primary">Info</a>
             </div>
           </div>
           <div class="card col-sm-4">
